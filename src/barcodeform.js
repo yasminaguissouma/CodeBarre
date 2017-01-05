@@ -17,8 +17,8 @@ let BarCodeForm = React.createClass({
                     <Row className={"text-blue"} >
                         <Input className={"text-blue"} s={12} label="Prenom" validate><Icon>account_circle</Icon></Input>
                         <Input className={"text-blue"} s={12} label="Nom" validate><Icon>account_circle</Icon></Input>
-                        <Input className={"text-blue"} s={12} label="Date de Naissance" validate type='tel'><Icon>phone</Icon></Input>
-                        <Input className={"text-blue"} s={12} label="Reference" validate type='email'><Icon>email</Icon></Input>
+                        <Input className={"text-blue"} s={12} label="Date de Naissance" validate type='tel'><Icon>date</Icon></Input>
+                        <Input className={"text-blue"} s={12} label="Reference" validate type='email'><Icon>barcode</Icon></Input>
                         <Button className={"text-blue"} type='submit'>Imprimer</Button>
 
                     </Row>
